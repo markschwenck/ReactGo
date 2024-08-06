@@ -1,0 +1,6 @@
+services:
+  db:
+    image: postgres:latest
+    restart: unless-stopped
+    ports:
+      - ${RG_DATABASE_PORT:-5432}:5432
