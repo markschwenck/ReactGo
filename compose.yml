@@ -24,8 +24,6 @@ services:
     volumes:
       - pgadmin:/var/lib/pgadmin
 
-
-
 volumes:
   db:
     driver: local
